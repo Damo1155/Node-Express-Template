@@ -1,0 +1,31 @@
+{
+  "name": "node-express-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tsc": "npx tsc",
+    "start:dev": "node ./dist/startup.js",
+    "yarn:start": "yarn build:tsc && yarn start:dev",
+    "npm:start": "npm run build:tsc && npm run start:dev"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Damo1155/Node-Express-Template"
+  },
+  "author": {
+    "name": "Damian Connolly",
+    "url": "https://github.com/Damo1155"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
