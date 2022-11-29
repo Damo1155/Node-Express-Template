@@ -16,14 +16,9 @@ Under Construction
     - `repository`
     - `author`
 - Install all the packages using NPM or YARN
-    - If YARN is not installed run the following commands
-        - npm install -g yarn
-        - yarn -v
-            - Should return a version number
-        - yarn
 - Run the application from the new directory using NPM or YARN
-    - yarn yarn:start
-    - npm run npm:start
+    - `yarn yarn:start`
+    - `npm run npm:start`
     - Feel free to rename/remove these where appropriate
 - Make a test call to the `default` and `test` API to ensure the calls are working
 
