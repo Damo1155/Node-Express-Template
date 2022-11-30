@@ -8,7 +8,7 @@ Under Construction
 
 # Installation Details
 
-- Fork this project into a new repository
+- Fork this project into a new repository (NPX templating features will be added in the future)
 - Adjust the following `package.json` fields in the new repository
     - `name`
     - `description`
@@ -25,6 +25,9 @@ Under Construction
 # Future Improvements
 
 - Tooling like DependaBot/Renovate to keep packages up to date.
+- Swap to consume as an NPX/YARN template
+    - [bonsaiilabs - Create NPX Starter Command](https://bonsaiilabs.com/create-npx-starter-command/)
+    - [Peter Mekhaeil - Build an NPX Starter Template](https://petermekhaeil.com/how-to-build-an-npx-starter-template/)
 - Integrate Nodemon for development environments.
 - Remove ability to allow relative paths, ensure only absolute paths are used.
 - Integrate Process ENV Constants so configuration can be managed by deployment pipelines.
